@@ -1,15 +1,16 @@
 class Huspenders < Formula
   desc "Create a Cabal-based project with sane defaults"
   homepage "https://github.com/gabebw/huspenders"
-  url "https://github.com/gabebw/huspenders/archive/v0.0.2.tar.gz"
+  url "https://github.com/gabebw/huspenders/archive/v0.0.3.tar.gz"
   head "https://github.com/gabebw/huspenders.git"
-  sha256 "c6cbe4f0132966440db17116e7a74fde09e862c88796b0a79a2af003c7186240"
+  sha256 "1e19115c94426e40d4e5eb1bfb09e57a98d023465846141393dd71579f0546cb"
 
   def install
     bin.install "huspenders"
+    bin.install "templates"
   end
 
   test do
-    system "huspenders", "new-project"
+    system "huspenders", "--hspec", "NewProject"
   end
 end
