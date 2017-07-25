@@ -10,12 +10,15 @@ Tap this repository:
 
     brew tap gabebw/formulae
 
-Install the package it contains like any other Homebrew package:
+Then install any formulae from this tap with `brew install FORMULA`, as usual.
 
-    brew install huspenders
+## Huspenders
+
+This used to contain a formula for
+[huspenders](https://github.com/gabebw/huspenders), a tool to start new Haskell
+projects. It has been superceded by [`stack
+new`](https://docs.haskellstack.org/en/stable/README/).
 
 ## Contributing
 
-Submit pull requests against the respective repos:
-
-* [huspenders](https://github.com/gabebw/huspenders)
+Contributions are welcome!
