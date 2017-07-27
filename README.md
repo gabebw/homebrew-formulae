@@ -10,7 +10,9 @@ Tap this repository:
 
     brew tap gabebw/formulae
 
-Then install any formulae from this tap with `brew install FORMULA`, as usual.
+Install the packages it contains like any other Homebrew package:
+
+    brew install most-used
 
 ## Huspenders
 
