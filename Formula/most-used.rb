@@ -8,6 +8,7 @@ class MostUsed < Formula
   url "https://github.com/gabebw/most-used/archive/v0.0.3.tar.gz"
   sha256 "c7b536afc4fdaef77c86e17df2e62c085c1c0f4f81b7b69353667f32f5ee48d7"
   version "0.0.3"
+  head "https://github.com/gabebw/most-used"
 
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
