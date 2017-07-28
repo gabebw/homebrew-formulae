@@ -6,7 +6,7 @@ class MostUsed < Formula
   desc "Find your most-used commands"
   homepage "https://github.com/gabebw/most-used"
   url "https://github.com/gabebw/most-used/archive/v0.0.4.tar.gz"
-  sha256 "c176cfbc3cd420e88cf5ae589dfe9be73266261f7369dfdff26b8b79654f30ef"
+  sha256 "85852fe507781251d00fb52fb73094661122d0c43f37270f165cfb4a1a4597d7"
   version "0.0.4"
   head "https://github.com/gabebw/most-used"
 
