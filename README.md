@@ -2,7 +2,7 @@
 
 A [Homebrew tap] for various projects.
 
-[Homebrew tap]: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/brew-tap.md
+[Homebrew tap]: https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md
 
 ## Usage
 
