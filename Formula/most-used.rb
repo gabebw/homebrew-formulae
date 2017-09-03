@@ -5,9 +5,9 @@ class MostUsed < Formula
 
   desc "Find your most-used commands"
   homepage "https://github.com/gabebw/most-used"
-  url "https://github.com/gabebw/most-used/archive/v0.0.6.tar.gz"
-  sha256 "f649dcfb5f93198b61836a60805b3b58f5dffe2974fe032b1ecfb0c7b6d51cfe"
-  version "0.0.6"
+  url "https://github.com/gabebw/most-used/archive/v0.0.6.1.tar.gz"
+  sha256 "95c9a61c9be6e093c1d5b0ab433a3f54de96179b347fe0b7745fc45839e6009a"
+  version "0.0.6.1"
   head "https://github.com/gabebw/most-used"
 
   depends_on "ghc" => :build
