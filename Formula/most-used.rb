@@ -16,9 +16,8 @@ class MostUsed < Formula
   def install
     install_cabal_package
     bin.install "bin/most-used"
-    if File.basename(ENV["SHELL"]) != "zsh"
-      opoo "most-used only looks at your Zsh history, not your Bash history"
-    end
+    bin.install "bin/most-used-bash"
+    bin.install "bin/most-used-zsh"
   end
 
   test do
