@@ -5,9 +5,11 @@ class Pspg < Formula
   sha256 "3b6a26ce43759eef6524230905a2b444bcbdbb133dda337d44efa05bddcce59a"
 
   def install
-    # The `--recheck` makes it re-run forever
-    inreplace "config.make.in", "./config.status --recheck", "./config.status"
     system "./configure", "--disable-debug", "--prefix=#{prefix}"
+    # The `--recheck` makes it re-run forever
+    %w(config.make.in config.make).each do |file|
+      inreplace file, "./config.status --recheck", "./config.status"
+    end
     system "make", "install"
   end
 end
