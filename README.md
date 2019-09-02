@@ -1,6 +1,10 @@
 # Homebrew Formulae
 
-A [Homebrew tap] for various projects.
+A [Homebrew tap] for various projects:
+
+* [Candle](https://github.com/gabebw/candle), for slicing and dicing HTML
+* [most-used](https://github.com/gabebw/most-used), for analyzing your shell
+  history
 
 [Homebrew tap]: https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md
 
@@ -12,15 +16,4 @@ Tap this repository:
 
 Install the packages it contains like any other Homebrew package:
 
-    brew install most-used
-
-## Huspenders
-
-This used to contain a formula for
-[huspenders](https://github.com/gabebw/huspenders), a tool to start new Haskell
-projects. It has been superceded by [`stack
-new`](https://docs.haskellstack.org/en/stable/README/).
-
-## Contributing
-
-Contributions are welcome!
+    brew install candle
