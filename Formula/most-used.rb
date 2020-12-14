@@ -1,8 +1,4 @@
-require "language/haskell"
-
 class MostUsed < Formula
-  include Language::Haskell::Cabal
-
   desc "Find your most-used commands"
   homepage "https://github.com/gabebw/most-used"
   url "https://github.com/gabebw/most-used/archive/v0.0.7.1.tar.gz"
@@ -14,7 +10,8 @@ class MostUsed < Formula
   depends_on "cabal-install" => :build
 
   def install
-    install_cabal_package
+    system "cabal", "v2-update"
+    system "cabal", "v2-install", *std_cabal_v2_args
     bin.install "bin/most-used"
     bin.install "bin/most-used-bash"
     bin.install "bin/most-used-zsh"
