@@ -1,10 +1,8 @@
 # Homebrew Formulae
 
-A [Homebrew tap] for various projects:
+A [Homebrew tap] for:
 
 * [Candle](https://github.com/gabebw/candle), for slicing and dicing HTML
-* [most-used](https://github.com/gabebw/most-used), for analyzing your shell
-  history
 
 [Homebrew tap]: https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md
 
